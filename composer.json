@@ -1,0 +1,7 @@
+{
+  "name": "zarexogre/dashboards_auto_refresh",
+  "type": "drupal-module",
+  "require": {
+    "php": ">=8.1"
+  }
+}
