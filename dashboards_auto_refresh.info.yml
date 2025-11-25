@@ -1,0 +1,4 @@
+name: Dashboards Auto Refresh
+type: module
+description: Allows custom blocks auto reloading within dashboards. Extends the Dashboards with Layouts module.
+core_version_requirement: ^8 || ^9 || ^10

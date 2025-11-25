@@ -1,0 +1,6 @@
+polling:
+  version: 1.x
+  js:
+    js/polling.js: {}
+  dependencies:
+    - core/jquery

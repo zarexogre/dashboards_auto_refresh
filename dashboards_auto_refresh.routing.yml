@@ -1,0 +1,7 @@
+dashboards_auto_refresh.data:
+  path: '/dar/block/{pluginId}/{key}'
+  defaults:
+    _controller: '\Drupal\dashboards_auto_refresh\Controller\DashboardsAutoRefreshController::getBlockMarkup'
+    key: ''
+  requirements:
+    _permission: 'access content'
