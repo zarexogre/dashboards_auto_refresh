@@ -46,7 +46,7 @@
    *   TRUE if excluded, FALSE otherwise.
    */
   function notExcluded(id) {
-    var excludedIds = ['rabbetts_map_block', 'camdrive_block', 'matomo_block', 'newsfeed_block', 'camworkshop_block'];
+    var excludedIds = ['rabbetts_map_block', 'camdrive_block', 'matomo_block', 'newsfeed_block', 'camworkshop_block', 'weather_block', 'camgym_block', 'camfrontdoor_block'];
     return !excludedIds.includes(id) && id.indexOf('chart') === -1;
   }
 
